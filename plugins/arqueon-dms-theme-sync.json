@@ -9,7 +9,7 @@
     "category": "appearance",
     "repo": "https://github.com/arqueon/dms-theme-sync",
     "author": "arqueon",
-    "description": "Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.",
+    "description": "Make Dux Shell the source of truth for appearance and propagate it to GTK, Qt 5/6, KDE, Kvantum, Fontconfig, XWayland and terminals — theme, light/dark, fonts and sizes (optionally scaled by Dux's font scale), icons, cursor, the full terminal ANSI palette ladder, and a softened Niri focused border. Auto-sync on every Matugen change, hot reload for running apps, pre-apply backups, and automatic deferral to Dux 2.2's native icon and cursor pipelines.",
     "dependencies": [
         "bash"
     ],
@@ -19,5 +19,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
+    "version": "0.16.0"
 }
